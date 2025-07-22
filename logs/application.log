@@ -1,0 +1,32 @@
+2025-07-21 17:21:33 [main] INFO  Log - Starting the WebDriver......!!!
+2025-07-21 17:21:38 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-07-21 17:21:43 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-07-21 17:21:44 [main] INFO  Log - Closing the Browser!!!!!!
+2025-07-21 17:27:58 [main] INFO  Log - Starting the WebDriver......!!!
+2025-07-21 17:28:00 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-07-21 17:28:03 [main] INFO  Log - Starting Login Test......!!!!!
+2025-07-21 17:28:03 [main] INFO  Log - Adding the Credentials!!!!!
+2025-07-21 17:28:04 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-07-21 17:28:04 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-07-21 17:28:04 [main] INFO  Log - Closing the Browser!!!!!!
+2025-07-21 17:29:58 [main] INFO  Log - Starting the WebDriver......!!!
+2025-07-21 17:29:59 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-07-21 17:30:04 [main] INFO  Log - Starting Login Test......!!!!!
+2025-07-21 17:30:04 [main] INFO  Log - Adding the Credentials!!!!!
+2025-07-21 17:30:04 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-07-21 17:30:04 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-07-21 17:30:04 [main] INFO  Log - Closing the Browser!!!!!!
+2025-07-21 20:41:31 [main] INFO  Log - Starting the WebDriver......!!!
+2025-07-21 20:41:34 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-07-21 20:41:37 [main] INFO  Log - Starting Login Test......!!!!!
+2025-07-21 20:41:37 [main] INFO  Log - Adding the Credentials!!!!!
+2025-07-21 20:41:38 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-07-21 20:41:38 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-07-21 20:41:38 [main] INFO  Log - Closing the Browser!!!!!!
+2025-07-22 17:19:13 [main] INFO  Log - Starting the WebDriver......!!!
+2025-07-22 17:19:16 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-07-22 17:19:19 [main] INFO  Log - Starting Login Test......!!!!!
+2025-07-22 17:19:19 [main] INFO  Log - Adding the Credentials!!!!!
+2025-07-22 17:19:20 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-07-22 17:19:20 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-07-22 17:19:20 [main] INFO  Log - Closing the Browser!!!!!!
