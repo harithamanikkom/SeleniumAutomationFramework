@@ -1,7 +1,13 @@
 package utils;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -12,13 +18,12 @@ public class ExtentReportManager {
 	private static ExtentReports extent;
 
 	private static ExtentTest test;
-	
 
 	public static ExtentReports getReportInstance() {
 
 		if (extent == null) {
-			String timestamp = new SimpleDateFormat("YYYY-MM-DD_HH-MM-SS").format(new Date());
-			String reportpath = "reports/ExtentReport_" + "timestamp" + ".html";
+			String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
+			String reportpath = "reports/ExtentReport_" + timestamp + ".html";
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter(reportpath);
 			reporter.config().setDocumentTitle("Automation Test Report");
@@ -33,5 +38,22 @@ public class ExtentReportManager {
 
 		test = getReportInstance().createTest(testname);
 		return test;
+	}
+
+	public static String captureScreenshot(WebDriver driver, String screenshotName) {
+		try {
+
+			File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+            String path = System.getProperty("user.dir") + "/screenshots/" + screenshotName + ".png";
+			System.out.println("Path for Screenshot is: "+path);
+	
+			FileUtils.copyFile(src, new File(path));
+			return path;
+		} 
+		catch (Exception e) {
+			e.printStackTrace();
+			return null;
+		}
 	}
 }

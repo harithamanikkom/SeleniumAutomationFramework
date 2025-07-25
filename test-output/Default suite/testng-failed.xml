@@ -7,7 +7,9 @@
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="TestValidLogin"/>
+          <include name="setupReport"/>
+          <include name="TestLoginWithInvalidCredentials"/>
+          <include name="tearDownReport"/>
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>
