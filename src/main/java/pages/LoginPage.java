@@ -23,7 +23,7 @@ public class LoginPage {
 	private By LoginButton = By.xpath("//*[@id=\"main\"]/div/div/div/div[2]/div[1]/div/form/div[3]/button");
 */
 	public LoginPage(WebDriver driver) {
-		this.driver = driver;
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
