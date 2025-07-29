@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -28,17 +29,28 @@ public class LoginTest extends BaseTest {
 		return data;
 	}
 
-	@Test(dataProvider = "LoginData")
+//	@DataProvider(name = "LoginData2")
+//	public Object[][] getData() {
+//		return new Object[][] { 
+//			{ "user1", "pass1" }, 
+//			{ "user2", "pass2" }, 
+//			{ "user3", "pass3" } 
+//			};
+//}
+
+	// @Test(dataProvider = "LoginData2")
+	@Test
+	@Parameters({ "username", "password" })
 	public void TestValidLogin(String username, String password) {
 		Log.info("Starting Login Test......!!!!!");
-		test = ExtentReportManager.createTest("LoginTest: "+username);
+		test = ExtentReportManager.createTest("LoginTest: " + username);
 
 		test.info("Navigating to the URL");
 		LoginPage LoginPage = new LoginPage(driver);
-		
+
 		// LoginPage.enterusername("admin1234@yourstore.com");
 		// LoginPage.enterpassword("admin");
-		
+
 		Log.info("Adding the Credentials!!!!!");
 		LoginPage.enterusername(username);
 		LoginPage.enterpassword(password);
@@ -76,5 +88,4 @@ public class LoginTest extends BaseTest {
 //		Assert.assertEquals(driver.getTitle(), "Just a moment...7888");
 //		test.pass("Login successfull");
 //
-	}
-
+}
