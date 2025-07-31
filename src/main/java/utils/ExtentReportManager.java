@@ -24,7 +24,7 @@ public class ExtentReportManager {
 
 		if (extent == null) {
 			String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-			reportPath = "reports/ExtentReport_" +timestamp+".html";
+			reportPath = "reports/ExtentReport_" + timestamp +".html";
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
 			reporter.config().setDocumentTitle("Automation Test Report");
