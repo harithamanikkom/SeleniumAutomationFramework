@@ -59,7 +59,7 @@ public Object[][] getData() {
 		Log.info("Verifying the Page Title......!!!!!!");
 		System.out.println("Title of the Page is:" + driver.getTitle());
 		test.info("Verifying the page Title");
-		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration......ABCD");
+		Assert.assertEquals(driver.getTitle(), "Dashboard / nopCommerce administration......ABCDEF");
 		test.pass("Login successfull");
 
 	}
