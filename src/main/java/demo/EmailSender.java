@@ -3,8 +3,6 @@ package demo;
 import java.io.File;
 import java.util.Properties;
 
-import com.aventstack.extentreports.model.Log;
-
 import jakarta.mail.Authenticator;
 import jakarta.mail.Message;
 import jakarta.mail.PasswordAuthentication;

@@ -348,3 +348,17 @@
 2025-07-30 18:50:50 [main] INFO  Log - Clicking the Login Button....!!!!!!
 2025-07-30 18:50:51 [main] INFO  Log - Verifying the Page Title......!!!!!!
 2025-07-30 18:50:52 [main] INFO  Log - Closing the Browser!!!!!!
+2025-08-02 17:51:28 [main] INFO  Log - Starting the WebDriver......!!!
+2025-08-02 17:51:30 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-08-02 17:51:38 [main] INFO  Log - Starting Login Test......!!!!!
+2025-08-02 17:51:39 [main] INFO  Log - Adding the Credentials!!!!!
+2025-08-02 17:51:39 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-08-02 17:51:40 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-08-02 17:51:41 [main] INFO  Log - Closing the Browser!!!!!!
+2025-08-02 23:00:48 [main] INFO  Log - Starting the WebDriver......!!!
+2025-08-02 23:00:52 [main] INFO  Log - Navigating to the URL!!!!!!
+2025-08-02 23:00:59 [main] INFO  Log - Starting Login Test......!!!!!
+2025-08-02 23:00:59 [main] INFO  Log - Adding the Credentials!!!!!
+2025-08-02 23:00:59 [main] INFO  Log - Clicking the Login Button....!!!!!!
+2025-08-02 23:01:01 [main] INFO  Log - Verifying the Page Title......!!!!!!
+2025-08-02 23:01:01 [main] INFO  Log - Closing the Browser!!!!!!
